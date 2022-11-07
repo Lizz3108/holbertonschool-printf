@@ -1,12 +1,29 @@
 .TH _printf 3 "November 2022" Linux "USER MANUALS"
+
 .SH NAME
+_printf - formatted output conversion
+
 .SH SYPNOSIS
+#include "main.h"
+int _printf(const char *format, ...);
+_printf("%CONVERSION", VAR);
+_printf("TEXT");
+
 .SH DESCRIPTION
+The function _printf() produces output according to a format. This function writes the output under the control of a format string that specifies how subsequent argument are converted for output.
+
+Format of the format string
+
+Each conversion specification is introduced by the character %, and end in conversion specifier.
+
 .SH BUGS
 No known bugs.
+
 .SH AUTHOR
 Lizbeth Garcia Lebron 5668@holbertonstudents.com
 
-Guillermo Rosario 0000@holbertonstudents.com
+
+Guillermo Rosario 5688@holbertonstudents.com
+
 .SH SEE ALSO
 .BR printf(3)
