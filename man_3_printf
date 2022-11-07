@@ -1,0 +1,12 @@
+.TH _printf 3 "November 2022" Linux "USER MANUALS"
+.SH NAME
+.SH SYPNOSIS
+.SH DESCRIPTION
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Lizbeth Garcia Lebron 5668@holbertonstudents.com
+
+Guillermo Rosario 0000@holbertonstudents.com
+.SH SEE ALSO
+.BR printf(3)
