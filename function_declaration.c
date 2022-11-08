@@ -30,14 +30,15 @@ int print_char(int c)
 	return (1);
 }
 
- /**
-  * print_str - prints a given string
-  * @s: address to the string
-  * Return: how long was the character
-  */
+/**
+ * print_str - prints a given string
+ * @s: address to the string
+ * Return: how long was the character
+ */
 int print_str(char *s)
 {
 	int len = _strlen(s);
+
 	write(1, s, len);
 	return (len);
 }
