@@ -10,13 +10,17 @@ int _printf(const char *format, ...)
 	int count = 0, i = 0;
 
 	va_start(a, format);
-	while (format && format[i])
+	if (format == NULL)
+	{
+		return (NULL);
+	}
+	while (format[i])
 	{
 		if (format[i] == '%')
 		{
 			while (format[++i] == ' ')
-			{
-			}
+				;
+
 			switch (format[i])
 			{
 				case '%':
