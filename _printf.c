@@ -10,11 +10,13 @@ int _printf(const char *format, ...)
 	int count = 0, i = 0;
 
 	va_start(a, format);
-	while (format[i])
+	while (format && format[i])
 	{
 		if (format[i] == '%')
 		{
-			i++;
+			while (format[++i] == ' ')
+			{
+			}
 			switch (format[i])
 			{
 				case '%':
@@ -27,7 +29,7 @@ int _printf(const char *format, ...)
 				case 's':
 					count += print_str(va_arg(a, char *));
 					break;
-				case ' ': case '\0':
+				default:
 					return (-1);
 			}
 		}
