@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * _printf - functio that pritf formated output
+ * @format: character string
+ * Return: the number of character printed.
+ */
 int _printf(const char *format, ...)
 {
 	va_list a;
@@ -24,7 +29,6 @@ int _printf(const char *format, ...)
 					break;
 				case ' ': case '\0':
 					return (-1);
-					break;
 			}
 		}
 		else

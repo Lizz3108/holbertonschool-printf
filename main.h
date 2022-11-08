@@ -3,6 +3,11 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+/**
+ * _printf - formated output function
+ * @format: character string
+ * Return: the number of character the printed
+ */
 int _printf(const char *format, ...); /*Prototype of _printf*/
 
 /*Function declaraction*/
