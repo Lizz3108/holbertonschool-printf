@@ -10,20 +10,19 @@ int _printf(const char *format, ...)
 	va_list a;
 	int count = 0, i = 0;
 
-	va_start(a, format);
-
 	if (format == NULL)
 		return (-1);
+	va_start(a, format);
 	while (format[i])
 	{
 		if (format[i] == '%')
 		{
-			i++;
+			while (format[++i] == ' ')
+				;
 			switch (format[i])
 			{
 				case '%':
-					write(1, "%", 1);
-					count++;
+					count += write(1, "%", 1);
 					break;
 				case 'c':
 					count += print_char(va_arg(a, int));
@@ -35,7 +34,8 @@ int _printf(const char *format, ...)
 					count += print_interger(va_arg(a, int));
 					break;
 				default:
-					write(1, &format[i], 1);
+					count += write(1, &format[i - 1], 1);
+					count += write(1, &format[i], 1);
 			}
 		}
 		else
