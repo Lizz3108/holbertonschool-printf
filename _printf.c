@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _printf - functio that pritf formated output
  * @format: character string
@@ -40,8 +39,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			write(1, &format[i], 1);
-			count++;
+			count += write(1, &format[i], 1);
 		}
 		i++;
 	}
