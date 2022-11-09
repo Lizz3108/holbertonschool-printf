@@ -24,7 +24,7 @@ int _strlen(char *s)
  * @c: How many character are to be printed
  * Return: the number of character printed
  */
-int print_char(int c)
+int print_char(char c)
 {
 	write(1, &c, 1);
 	return (1);
@@ -41,4 +41,36 @@ int print_str(char *s)
 
 	write(1, s, len);
 	return (len);
+}
+
+/**
+ * print_interger - prints interger given
+ * @num: given number to print
+ * Return: the number, if its negative include the line.
+ */
+int print_interger(int num)
+{
+	char interger_string[] = "          ";
+	int i, digit_MAX = 10, is_negative = 0, digit_amount;
+
+	if (num == 0)
+	{
+		write(1, "0", 1);
+		return (1);
+	}
+	if (num < 0)
+	{
+		write(1, "-", 1);
+		num = -1 * num;
+		is_negative++;
+	}
+	for (i = 9; num != 0; i--)
+	{
+		interger_string[i] = '0' + (num % 10);
+		num = num / 10;
+	}
+	i++;
+	digit_amount = digit_MAX - i;
+	write(1, &interger_string[i], digit_amount);
+	return (is_negative + digit_amount);
 }
