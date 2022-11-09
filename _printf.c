@@ -30,8 +30,8 @@ int _printf(const char *format, ...)
 				case 's':
 					count += print_str(va_arg(a, char *));
 					break;
-				default:
-					write(1, &format[i], 1);
+				case '\0':
+					return (-1);
 			}
 		}
 		else
