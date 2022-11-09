@@ -37,8 +37,14 @@ int print_char(char c)
  */
 int print_str(char *s)
 {
-	int len = _strlen(s);
+	int len;
 
+	if (s == NULL)
+	{
+		write(1, "(null)\n", 7);
+		return (5);
+	}
+	len = _strlen(s);
 	write(1, s, len);
 	return (len);
 }
