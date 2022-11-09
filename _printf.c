@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _printf - functio that pritf formated output
  * @format: character string
@@ -11,13 +12,13 @@ int _printf(const char *format, ...)
 
 	va_start(a, format);
 
-	while (format && format[i])
+	if (format == NULL)
+		return (-1);
+	while (format[i])
 	{
 		if (format[i] == '%')
 		{
-			while (format[++i] == ' ')
-			{
-			}
+			i++;
 			switch (format[i])
 			{
 				case '%':
@@ -30,8 +31,11 @@ int _printf(const char *format, ...)
 				case 's':
 					count += print_str(va_arg(a, char *));
 					break;
-				case '\0':
-					return (-1);
+				case 'd': case 'i':
+					count += print_interger(va_arg(a, int));
+					break;
+				default:
+					write(1, &format[i], 1);
 			}
 		}
 		else
