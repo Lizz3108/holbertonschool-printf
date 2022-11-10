@@ -41,8 +41,8 @@ int print_str(char *s)
 
 	if (s == NULL)
 	{
-		write(1, "(null)\n", 7);
-		return (5);
+		write(1, "(null)", 6);
+		return (6);
 	}
 	len = _strlen(s);
 	write(1, s, len);
