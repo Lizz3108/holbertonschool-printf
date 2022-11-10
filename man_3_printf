@@ -5,16 +5,27 @@ _printf - formatted output conversion
 
 .SH SYPNOSIS
 #include "main.h"
+
 int _printf(const char *format, ...);
+
 _printf("%CONVERSION", VAR);
+
 _printf("TEXT");
 
 .SH DESCRIPTION
 The function _printf() produces output according to a format. This function writes the output under the control of a format string that specifies how subsequent argument are converted for output.
 
-Format of the format string
+.SH CONVERSION SPECIFIERS
+A character that specifies the type of conversion to be applied. The conversion specifier and their meaning are:
 
-Each conversion specification is introduced by the character %, and end in conversion specifier.
+.IP c
+An int argument is converted to signed decimal notation. Gives the minimum number of digit that must appear.
+
+.IP S
+A const char * argument, that is expected to be a pointer to a string, will be a written up to (but not including) a terminating null byte('\0').
+
+.IP %
+A '%' is written. No argument converted. The complete conversion specification is '%%'.
 
 .SH BUGS
 No known bugs.
