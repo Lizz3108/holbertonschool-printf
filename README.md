@@ -1,5 +1,14 @@
 # _printf
 
+## Table of Content
+:computer: _printf.c: This is the main code, its function like the a the prinft().
+
+:computer: function_declaration.c: Contains all the functions that are call in the _printf() file.
+
+:computer: main.h: Its the header file, contains the prototype of my functions.
+
+:computer: man_3_printf: This file contains the man page for the function _printf().
+
 ## Description
 
 The function _printf() main focuse is to print a output according to a certain format. Different way to print a output is to use of format specifier.
@@ -23,8 +32,10 @@ The language we use for the creation of _printf() is the C language. This low le
 
 Some of the challenge we faced creating project were trying to make out _printf() function break and figure a solution for the problem. In addiction, try creating a function with the little information that it was given to us. This helps us develop critical thinking and emphasize collaboration. Creating the function for the conversion of intergers.
 
-(Guided questions: What your application does, why you used the technologies you used, some of the challenges you faces and features you hope to implement in the future?)
+## Reference
+This function work similar to ![printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html). 
 
 ## Credits
 ![Lizbeth Garcia Lebron](https://www.linkedin.com/in/lizbeth-garcia-53657a22a/)
+
 ![Guillermo Rosario](https://www.linkedin.com/in/guillermo-rosario-085195133/)
