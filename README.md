@@ -26,9 +26,7 @@ A format specifier in c are used to take input and print the output of a type. T
 
 ### Usage Example
 ``Example:
-
 Input: _printf("%c", H);
-
 Output: H``
 
 ## Technology
