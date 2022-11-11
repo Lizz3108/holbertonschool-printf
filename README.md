@@ -11,7 +11,7 @@
 
 ## Description
 
-The function _printf() main focuse is to print a output according to a certain format. Different way to print a output is to use of format specifier.
+The function _printf main focus is to print a output according to a certain format. Different ways to print an output is with the use of a format specifier.
 
 ### What is format specifier?
 
