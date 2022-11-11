@@ -1,13 +1,13 @@
 ![_printf banner](https://user-images.githubusercontent.com/96942307/201234320-27b3afa1-900a-49ee-920d-7605688034c1.png)
 
 ## Table of Content
-:computer: _printf.c: This is the main code, its function like the a the prinft().
+:computer: _printf.c: This is the main code, of our custom function, it's a replica of the printf function.
 
-:computer: function_declaration.c: Contains all the functions that are call in the _printf() file.
+:computer: function_declaration.c: Contains all the functions that are call in our _printf.c file.
 
-:computer: main.h: Its the header file, contains the prototype of my functions.
+:computer: main.h: It's the header file, contains the prototype to our functions.
 
-:computer: man_3_printf: This file contains the man page for the function _printf().
+:computer: man_3_printf: This file contains the man page for the function _printf.
 
 ## Description
 
