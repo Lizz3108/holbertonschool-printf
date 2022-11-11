@@ -46,7 +46,5 @@ Some of the challenge we faced creating project were trying to make out _printf(
 ## Reference
 This function work similar to ![printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html). 
 
-## Credits
-![Lizbeth Garcia Lebron](https://www.linkedin.com/in/lizbeth-garcia-53657a22a/)
-
-![Guillermo Rosario](https://www.linkedin.com/in/guillermo-rosario-085195133/)
+## Developers
+Lizbeth Garcia Lebron & Guillermo Rosario
