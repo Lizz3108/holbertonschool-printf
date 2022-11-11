@@ -24,9 +24,20 @@ A format specifier in c are used to take input and print the output of a type. T
 | %s               | Write a function that prints strings, followed by a new line. |
 | %c               | Write a function that prints anything.                        |
 
+### Usage Example
+``Example:
+
+Input: _printf("%c", H);
+
+Output: H``
+
 ## Technology
 
 The language we use for the creation of _printf() is the C language. This low level language allow us to create and control function from scratch and define its output. We are currently in our foundation trimester of C language and we are testing our knowledge by building the _print() from scratch.
+
+### Compilation
+All the files that were used are compiled using:
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
 
 ## Challenges
 
