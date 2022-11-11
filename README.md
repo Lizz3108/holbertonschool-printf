@@ -41,7 +41,9 @@ All the files that were used are compiled using:
 
 ## Challenges
 
-Some of the challenges we faced while creating this function were trying to make the function _printf() break and figure out a solution for the problem. In addition the cration of the function that printed interger. Trying to create a function with the little information that was given to us proved to be a challenge as well. This helps us to develop critical thinking and emphasize collaboration.
+* Some of the challenges we faces while creating this function were trying to make the function _printf() break and figured out a soluction for the problem.
+* The creation of the function to print intergers.
+* Trying to create a function with the little information that was given to us proved to be a challenge as well. This helps us to develop critical thinking and emphasize collaboration.
 
 ## Reference
 This function work similar to ![printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html). 
