@@ -40,10 +40,13 @@ All the files that were used are compiled using:
 `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
 
 ## Challenges
+The challenges we faced are the following:
 
-* Some of the challenges we faces while creating this function were trying to make the function _printf() break and figured out a soluction for the problem.
+* Finding the edge cases. This was done by purposely breaking the function and finding a solution.
 * The creation of the function to print intergers.
-* Trying to create a function with the little information that was given to us proved to be a challenge as well. This helps us to develop critical thinking and emphasize collaboration.
+* Trying to create a function with the little information that was given to us. 
+
+Solving these challenges helped us to develop critical thinking and emphasize collaboration.
 
 ## Reference
 This function work similar to ![printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html). 
