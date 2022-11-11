@@ -11,7 +11,7 @@
 
 ## Description
 
-The function _printf main focus is to print a output according to a certain format. Different ways to print an output is with the use of a format specifier.
+The function _printf main focus is to print an output according to a certain format. Different ways to print an output is with the use of a format specifier.
 
 ### What is format specifier?
 
@@ -41,7 +41,7 @@ All the files that were used are compiled using:
 
 ## Challenges
 
-Some of the challenge we faced creating project were trying to make out _printf() function break and figure a solution for the problem. In addiction, try creating a function with the little information that it was given to us. This helps us develop critical thinking and emphasize collaboration. Creating the function for the conversion of intergers.
+Some of the challenges we faced while creating this function were trying to make the function _printf() break and figure out a solution for the problem. In addition the cration of the function that printed interger. Trying to create a function with the little information that was given to us proved to be a challenge as well. This helps us to develop critical thinking and emphasize collaboration.
 
 ## Reference
 This function work similar to ![printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html). 
