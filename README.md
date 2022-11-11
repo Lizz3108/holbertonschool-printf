@@ -25,9 +25,11 @@ A format specifier in c are used to take input and print the output of a type. T
 | %c               | Write a function that prints anything.                        |
 
 ### Usage Example
-``Example:
-Input: _printf("%c", H);
-Output: H``
+```
+Example for char:           Example for string:                Example for digit:             Example for interger:
+Input: _printf("%c", H);    Input: _printf("%s", "hello");     Input: _printf("%d", 13);      Input: _printf("%i", 45);
+Output: H                   Output: hello                      Output: 13                     Output: 45
+```
 
 ## Technology
 
