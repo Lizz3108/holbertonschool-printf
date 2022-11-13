@@ -56,27 +56,33 @@ int print_str(char *s)
  */
 int print_interger(int num)
 {
-	char interger_string[] = "          ";
-	int i, digit_MAX = 10, is_negative = 0, digit_amount;
+	char interger_string[] = "           ";
+	int i, digit_MAX = 11, num_duplicate = num, digit_amount;
 
 	if (num == 0)
 	{
 		write(1, "0", 1);
 		return (1);
 	}
-	if (num < 0)
+	for (i = 10; num != 0; i--)
 	{
-		write(1, "-", 1);
-		num = -1 * num;
-		is_negative++;
-	}
-	for (i = 9; num != 0; i--)
-	{
-		interger_string[i] = '0' + (num % 10);
+		char digit = num % 10;
+			if (digit < 0)
+			{
+				digit = -1 * digit;
+			}
+		interger_string[i] = '0' + digit;
 		num = num / 10;
 	}
-	i++;
+	if (num_duplicate < 10)
+	{
+		interger_string[i] = '-';
+	}
+	else
+	{
+		i++;
+	}
 	digit_amount = digit_MAX - i;
 	write(1, &interger_string[i], digit_amount);
-	return (is_negative + digit_amount);
+	return (digit_amount);
 }
