@@ -74,7 +74,7 @@ int print_interger(int num)
 		interger_string[i] = '0' + digit;
 		num = num / 10;
 	}
-	if (num_duplicate < 10)
+	if (num_duplicate < 0)
 	{
 		interger_string[i] = '-';
 	}
