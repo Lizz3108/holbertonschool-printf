@@ -30,6 +30,8 @@ Example for char:           Example for string:                Example for digit
 Input: _printf("%c", H);    Input: _printf("%s", "hello");     Input: _printf("%d", 13);      Input: _printf("%i", 45);
 Output: H                   Output: hello                      Output: 13                     Output: 45
 ```
+### Return Value
+Upon successful return, these functions return the number of character printed (excluding the null byte used to end output to string). If an output error is encountered, a negative value is returned.
 
 ## Technology
 
