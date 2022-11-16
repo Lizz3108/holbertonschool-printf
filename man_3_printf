@@ -30,6 +30,9 @@ A const char * argument, that is expected to be a pointer to a string, will be a
 .IP %
 A '%' is written. No argument converted. The complete conversion specification is '%%'.
 
+.SH RETURN VALUE
+Upon successful return, this function returns the number of characters printed (excluding the null byte used to end output to string). If an output error is encountered, a negative value is returned.
+
 .SH BUGS
 No known bugs.
 
