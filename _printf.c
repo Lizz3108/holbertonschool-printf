@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _printf - functio that pritf formated output
+ * _printf - function that pritf formated output
  * @format: character string
- * Return: the number of character printed.
+ * Return: the number of character printed if fail
+ * return - 1
  */
 int _printf(const char *format, ...)
 {

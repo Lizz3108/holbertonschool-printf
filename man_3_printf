@@ -18,6 +18,9 @@ The function _printf() produces output according to a format. This function writ
 .SH CONVERSION SPECIFIERS
 A character that specifies the type of conversion to be applied. The conversion specifier and their meaning are:
 
+.IP "d, i" 
+An int argument is converted to signed decimal notation. Gives the minimum number of digits that must appear.
+
 .IP c
 An int argument is converted to signed decimal notation. Gives the minimum number of digit that must appear.
 
@@ -26,6 +29,9 @@ A const char * argument, that is expected to be a pointer to a string, will be a
 
 .IP %
 A '%' is written. No argument converted. The complete conversion specification is '%%'.
+
+.SH RETURN VALUE
+Upon successful return, this function returns the number of characters printed (excluding the null byte used to end output to string). If an output error is encountered, a negative value is returned.
 
 .SH BUGS
 No known bugs.
