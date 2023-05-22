@@ -54,4 +54,7 @@ Solving these challenges helped us to develop critical thinking and emphasize co
 This function work similar to ![printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html). 
 
 ## Developers
-Lizbeth Garcia Lebron & Guillermo Rosario
+### Lizbeth Garcia & Guillermo Rosario
+Hi, Im Lizbeth Garcia on of the developer behind this project. To connect with me professionaly and explore more about my work, I invite you to visit my LinkedIn profile ([Lizbeth Garcia](https://www.linkedin.com/in/lizbeth-garcia-53657a22a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0ioxuQ4BQy2Z%2Fclq%2BYgMvQ%3D%3D) ). There, you can find articles, and professional experiences. For more casual discussion and tech insight, feel free to follow me on Twitter ([@GarlebLizz](https://twitter.com/GarlebLizz)) or Instagram ([@CodewithLizz](https://www.instagram.com/codewithlizz/)). I look foward to connecting with you!
+
+Hey, Im Guillemro Rosario one of the developer behind this project. You can find me on LinkedIn ([Guillermo Rosario](https://www.linkedin.com/in/guillermo-rosario-torres-085195133?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNvRmi8XQRLGEKejp6cXQ8Q%3D%3D))
